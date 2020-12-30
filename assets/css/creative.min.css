@@ -39,6 +39,17 @@ h6 {
     text-transform: uppercase;
 }
 
+header.masthead {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 56px);
+    background-image: url(../../img/intro.gif);
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
 .faqshadow {
     transition: box-shadow .3s;
     border-radius: 10px;

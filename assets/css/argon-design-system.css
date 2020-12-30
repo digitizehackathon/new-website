@@ -8303,7 +8303,7 @@ button.bg-darker:focus {
 }
 
 .shadow,
-.profile-page .card-profile .card-profile-image img {
+.card-profile .card-profile-image img {
     box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07) !important;
 }
 
@@ -16744,15 +16744,15 @@ a.btn-icon-only {
     border: none;
 }
 
-.profile-page .card-profile {
+.card-profile {
     margin-top: -150px;
 }
 
-.profile-page .card-profile .card-profile-image {
+.card-profile .card-profile-image {
     position: relative;
 }
 
-.profile-page .card-profile .card-profile-image img {
+.card-profile .card-profile-image img {
     max-width: 180px;
     border-radius: 0.25rem;
     transform: translate(-50%, -30%);
@@ -16761,47 +16761,47 @@ a.btn-icon-only {
     transition: all 0.15s ease;
 }
 
-.profile-page .card-profile .card-profile-image img:hover {
+.card-profile .card-profile-image img:hover {
     transform: translate(-50%, -33%);
 }
 
-.profile-page .card-profile .card-profile-stats {
+.card-profile .card-profile-stats {
     padding: 1rem 0;
 }
 
-.profile-page .card-profile .card-profile-stats>div {
+.card-profile .card-profile-stats>div {
     text-align: center;
     margin-right: 1rem;
     padding: .875rem;
 }
 
-.profile-page .card-profile .card-profile-stats>div:last-child {
+.card-profile .card-profile-stats>div:last-child {
     margin-right: 0;
 }
 
-.profile-page .card-profile .card-profile-stats>div .heading {
+.card-profile .card-profile-stats>div .heading {
     font-size: 1.1rem;
     font-weight: bold;
     display: block;
 }
 
-.profile-page .card-profile .card-profile-stats>div .description {
+.card-profile .card-profile-stats>div .description {
     font-size: .875rem;
     color: #adb5bd;
 }
 
-.profile-page .card-profile .card-profile-actions {
+.card-profile .card-profile-actions {
     padding: .875rem;
 }
 
 @media (max-width: 575.98px) {
-    .profile-page .card-profile .card-profile-actions {
+    .card-profile .card-profile-actions {
         margin-top: 110px;
     }
 }
 
 @media (min-width: 576px) and (max-width: 991.98px) {
-    .profile-page .card-profile .card-profile-stats {
+    .card-profile .card-profile-stats {
         margin-top: 30px;
     }
 }

@@ -16765,27 +16765,27 @@ a.btn-icon-only {
     transform: translate(-50%, -33%);
 }
 
-.card-profile .card-profile-stats {
+.card-profile-stats {
     padding: 1rem 0;
 }
 
-.card-profile .card-profile-stats>div {
+.card-profile-stats>div {
     text-align: center;
     margin-right: 1rem;
     padding: .875rem;
 }
 
-.card-profile .card-profile-stats>div:last-child {
+.card-profile-stats>div:last-child {
     margin-right: 0;
 }
 
-.card-profile .card-profile-stats>div .heading {
+.card-profile-stats>div .heading {
     font-size: 1.1rem;
     font-weight: bold;
     display: block;
 }
 
-.card-profile .card-profile-stats>div .description {
+.card-profile-stats>div .description {
     font-size: .875rem;
     color: #adb5bd;
 }
@@ -16801,7 +16801,7 @@ a.btn-icon-only {
 }
 
 @media (min-width: 576px) and (max-width: 991.98px) {
-    .card-profile .card-profile-stats {
+    .card-profile-stats {
         margin-top: 30px;
     }
 }

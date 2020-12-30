@@ -2500,15 +2500,15 @@ fieldset:disabled a.btn {
 
 .btn-primary {
     color: #fff;
-    background-color: #5e72e4;
-    border-color: #5e72e4;
+    background-color: #90d9b8;
+    border-color: #90d9b8;
     box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #3d55df;
-    border-color: #324cdd;
+    background-color: #5ed49f;
+    border-color: #5ed49f;
 }
 
 .btn-primary:focus,
@@ -2546,8 +2546,8 @@ fieldset:disabled a.btn {
 
 .btn-secondary:hover {
     color: #212529;
-    background-color: #dee1e7;
-    border-color: #d6dae2;
+    background-color: #87c425;
+    border-color: #87c425;
 }
 
 .btn-secondary:focus,
@@ -16424,15 +16424,15 @@ a.btn-icon-only {
 
 .btn-twitter {
     color: #fff;
-    background-color: #1da1f2;
-    border-color: #1da1f2;
+    background-color: #0866c2;
+    border-color: #0866c2;
     box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
 .btn-twitter:hover {
     color: #fff;
-    background-color: #1da1f2;
-    border-color: #1da1f2;
+    background-color: #0866c2;
+    border-color: #0866c2;
 }
 
 .btn-twitter:focus,

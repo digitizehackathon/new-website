@@ -40,8 +40,16 @@ Coded by www.creative-tim.com
     <link href="/vendor/fontawesome/css/brands.css" rel="stylesheet">
     <link href="/vendor/fontawesome/css/solid.css" rel="stylesheet">
 
-
-
+    <style>
+        #icon {
+            position: relative;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            border-radius: 10px;
+        }
+    </style>
 
 </head>
 
@@ -179,118 +187,226 @@ Coded by www.creative-tim.com
         </div>
     </nav>
     <!-- End Navbar -->
-    <!--HEADER: go to css file to change the background image-->
-    <header class="masthead text-white d-flex">
-        <img src="img/intro.gif" width="100%" height="100%">
-    </header>
 
-    <section class="bg-tertiary " id="about ">
-        <div class="container-fluid ">
-            <div class="row mx-auto text-center ">
-                <div class="col-md-6 ">
-                    <iframe width="100% " height="100% " src="https://www.youtube.com/embed/O0RF9mUDwvk " frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
-                </div>
-                <div class="col-md-6 ">
-                    <h2 class="section-heading text-white ">Digitize Hackathon</h2>
-                    <br><br>
-                    <p class="text-faded mb-4 text-white ">
-                        Digitize Hackathon is a free 24 hour coding event for high school students in the Bay Area. We specifically focus on our three fundamental themes: Environmental Conservation, Health & Wellness, and Social Welfare, to encourage students to use technology
-                        for social good and create projects that impact the community.
+    <!--SPONSORS SECION-->
+    <section class="bg-secondary" id="sponsors">
+        <!--SPONSORS-->
+        <div class="container text-center">
+            <!--add digitize sponsors-->
+            <h2 class="section-heading text-white">Digitize sponsors</h2>
+            <br>
+            <p style="color: white;">Interested in sponsoring? Please check out our prospectus and email us at sponsors@digitizehackathon.tech
+            </p>
+            <br>
+            <a href="img/sponsorship_prospectus.pdf" target="_blank">
+                <button type="button " class="btn btn-secondary ">Check out our Sponsorship Prospectus</button>
+            </a>
 
-                        <br> <br>
-                        <a href="faq.html ">
-                            <button type="button " class="btn btn-secondary ">Learn More About Hackathon</button>
-                        </a>
-                    </p>
+            <br><br><br>
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="https://www.hackplus.io/" target="_blank">
+                        <img style="width:90%" src="img/sponsor/hackplus.png" id="icon" />
+                    </a>
                 </div>
+
+                <div class="col-sm-4">
+                    <a href="https://www.amazon.com/" target="_blank">
+                        <img style="width:90%" src="img/sponsor/amazonlogo.jpg" id="icon" />
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="https://balsamiq.com/" target="_blank">
+                        <img style="width:90%" src="img/sponsor/balsamiq.png" id="icon" />
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="https://www.smartandfinal.com/" target="_blank">
+                        <img style="width:90%" src="img/sponsor/smart.png" id="icon" />
+                    </a>
+                </div>
+
+                <div class="col-sm-4">
+
+                    <a href="https://www.makeschool.com/" target="_blank">
+                        <img style="width:90%" src="img/sponsor/logo-grey.jpg" id="icon" />
+                    </a>
+
+                </div>
+                <div class="col-sm-4">
+                    <a href="https://shawee.io/" target="_blank">
+                        <img style="width:90%" src="img/sponsor/shaweenew.png" id="icon" />
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="https://www.desmos.com/" target="_blank">
+                        <img style="width:50%" src="img/sponsor/desmoslogo.png" id="icon" />
+                    </a>
+
+                </div>
+                <div class="col-sm-4">
+                    <a href="https://www.rstudio.com/" target="_blank">
+                        <img style="width:60%" src="img/sponsor/rstudio.png" id="icon" />
+                    </a>
+
+                </div>
+                <div class="col-sm-4">
+                    <!--<a href="https://www.talkingrain.com/" target="_blank">
+                    <img style="width:70%" src="img/sponsor/talkingrain.png" id="icon" />
+                </a>-->
+                    <a href="https://www.codemag.com/" target="_blank">
+                        <img style="width:70%" src="img/sponsor/codemagazine.png" id="icon" />
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <!--<a href="https://get.tech/" target="_blank">
+                    <img style="width:70%" src="img/sponsor/dottech.png" id="icon" />
+                </a>-->
+                    <a href="https://www.sketch.com/" target="_blank">
+                        <img style="width:70%" src="img/sponsor/sketch.svg" id="icon" />
+                    </a>
+                </div>
+                <!--END FIRST ICON-->
+                <div class="col-sm-4">
+                    <a href="https://www.aopsacademy.org/" target="_blank">
+                        <img style="width:70%" src="img/sponsor/aops.png" id="icon" />
+                    </a>
+
+                </div>
+                <div class="col-sm-4">
+                    <a href="http://www.the3doodler.com/" target="_blank">
+                        <img style="width:70%" src="img/sponsor/3doodler.jpg" id="icon" />
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="https://www.jetbrains.com/" target="_blank">
+                        <img style="width:70%" src="img/sponsor/jetbrains.png" id="icon" />
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="https://www.quizlet.com" target="_blank">
+                        <img style="width:70%" src="img/sponsor/quizlet.png" id="icon" />
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <!--<a href="https://estimote.com/" target="_blank">
+                    <img style="width:70%" src="img/sponsor/estimote.png" id="icon" />
+                </a>-->
+                    <a href="https://www.devpost.com/" target="_blank">
+                        <img style="width:70%" src="img/sponsor/Devpost.jpg" id="icon" />
+                    </a>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href=" http://bit.ly/DigitizeChallenge" target="_blank">
+                        <img style="width:70%" src="img/sponsor/challengerocket.png" id="icon" />
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="https://www.bugsee.com/" target="_blank">
+                        <img style="width:70%" src="img/sponsor/bugsee.png" id="icon" />
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="https://www.interviewcake.com/" target="_blank">
+                        <img style="width:70%" src="img/sponsor/interviewcake.png" id="icon" />
+                    </a>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="https://www.digitalocean.com/" target="_blank">
+                        <img style="width:70%" src="img/sponsor/do.png" id="icon" />
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="https://www.foundersuite.com/" target="_blank">
+                        <img style="width:70%" src="img/sponsor/founder.png" id="icon" />
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="https://nimblebox.ai/" target="_blank">
+                        <img style="width:70%" src="img/sponsor/nimble.png" id="icon" />
+                    </a>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="https://www.stickergiant.com/" target="_blank">
+                        <img style="width:70%" src="img/sponsor/sticker.png" id="icon" />
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="https://www.roblox.com/" target="_blank">
+                        <img style="width:70%" src="img/sponsor/roblox.png" id="icon" />
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="https://www.cloudsploit.com/" target="_blank">
+                        <img style="width:70%" src="img/sponsor/cloudsploit.png" id="icon" />
+                    </a>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="https://www.producthunt.com/" target="_blank">
+                        <img style="width:70%" src="img/sponsor/producthunt.png" id="icon" />
+                    </a>
+                </div>
+
+                <div class="col-sm-4">
+                    <a href="m.wolframalpha.com/" target="_blank">
+                        <img style="width:70%" src="img/sponsor/wolfram.png" id="icon" />
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="https://www.godaddy.com/" target="_blank">
+                        <img style="width:70%" src="img/sponsor/godaddy.png" id="icon" />
+                    </a>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="https://www.pixar.com/" target="_blank">
+                        <img style="width:70%" src="img/sponsor/pixar.jpg" id="icon" />
+                    </a>
+                </div>
+
+
+
             </div>
         </div>
+
+
+
+
+
+        <!--END SPONSORS-->
     </section>
 
-    <section>
-        <div class="container-fluid ">
-            <div class="row mx-auto text-center ">
-                <div class="col-md-6 ">
-                    <h2 class="section-heading ">Mentorship Program</h2>
-                    <br><br>
-                    <p class="mb-4 ">
-                        As part of our initiative for encouraging students to use Computer Science to create projects that impact their community, we have created a mentorship program where we will be pairing up high schools students who are proficient in CS with middle/high
-                        school students from underrepresented areas across the nation to teach them various aspects of CS.
-                        <br><br>
-                        <a href="faq.html ">
-                            <button type="button " class="btn btn-secondary ">Learn More About Mentorship</button>
-                        </a>
 
-                    </p>
-                </div>
-                <div class="col-md-6 ">
-                    <iframe width="100% " height="100% " src="https://www.youtube.com/embed/ELh6-OTMu6M " frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="bg-light ">
-        <h2 class="text-center section " style="text-align: center; padding-top: 1%; padding-bottom: 1%; ">Digitize By the Numbers</h2>
-        <br><br>
-        <div class="row ">
-
-        </div>
-    </section>
-
-    <section class="bg-tertiary ">
-        <h2 class="text-center section text-white " style="text-align: center; width: 100%; padding-top: 1%; padding-bottom: 1%; ">Sponsors</h2>
-        <br><br>
-        <div class="container ">
-            <div class="row ">
-                <div class="col-sm-4 ">
-                    <a href="https://www.hackplus.io/ " target="_blank ">
-                        <img style="width:90% " src="img/sponsor/hackplus.png " id="icon " />
-                    </a>
-                </div>
-
-                <div class="col-sm-4 ">
-                    <a href="https://www.amazon.com/ " target="_blank ">
-                        <img style="width:90% " src="img/sponsor/amazontransparent.png " id="icon " />
-                    </a>
-                </div>
-                <div class="col-sm-4 ">
-                    <a href="https://balsamiq.com/ " target="_blank ">
-                        <img style="width:90% " src="img/sponsor/balsamiqtransparent.png " id="icon " />
-                    </a>
-                </div>
-
-            </div>
-            <br><br>
-            <div class="row ">
-                <div class="col-sm-4 ">
-                    <a href="https://www.smartandfinal.com/ " target="_blank ">
-                        <img style="width:90% " src="img/sponsor/smart.png " id="icon " />
-                    </a>
-                </div>
-
-                <div class="col-sm-4 ">
-
-                    <a href="https://www.makeschool.com/ " target="_blank ">
-                        <img style="width:90% " src="img/sponsor/makeschooltransparent.png " id="icon " />
-                    </a>
-
-                </div>
-                <div class="col-sm-4 ">
-                    <a href="https://shawee.io/ " target="_blank ">
-                        <img style="width:90% " src="img/sponsor/shaweenew.png " id="icon " />
-                    </a>
-                </div>
-
-            </div>
-            <br><br>
-            <div class="text-center ">
-                <a href="img/sponsorship_prospectus.pdf ">
-                    <button type="button " class="btn btn-secondary ">Check out Sponsorship Prospectus</button>
-                </a>
-            </div>
-        </div>
-    </section>
     <footer class="footer ">
 
         <div class="container ">
